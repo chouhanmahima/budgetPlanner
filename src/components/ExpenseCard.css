@@ -1,0 +1,29 @@
+.card_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 3px 3px #151414;
+    border-radius: 0.625rem;
+     background-color: #e74f4fd2;
+}
+
+.card_container>button{
+    padding: 0.5rem 3rem;
+    justify-self: end;
+    border-radius: 0.625rem;
+    /* background-color: #0000ff; */
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.3s;
+    background-image: linear-gradient(to right,
+    #0b32b1,
+    #15109c,
+    #3c3ada,
+    #0e3bc1,
+    #15109c,
+    #0b32b1);
+}

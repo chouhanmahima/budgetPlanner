@@ -1,0 +1,35 @@
+#budget_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* background-color: aqua; */
+}
+.para{
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: rgb(217, 217, 217);
+}
+
+.para1{
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: rgb(217, 217, 217);
+    color: green;
+}
+
+.para2 {
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: rgb(124, 240, 240);
+}
+
+@media screen and (max-width:558.5px) {
+    #budget_container{
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+}
